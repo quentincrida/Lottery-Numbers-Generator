@@ -31,7 +31,10 @@ document.querySelector("#number4").textContent = lotteryNumbers[3];
 document.querySelector("#number5").textContent = lotteryNumbers[4];
 document.querySelector("#number6").textContent = lotteryNumbers[5];
 
-document.querySelector(".playButton").addEventListener("click", function () {});
+//reload screen on clicking Play
+document.querySelector(".playButton").addEventListener("click", function () {
+  location.reload();
+});
 //refresh button sets numbers to ?
 document.querySelector(".refreshButton").addEventListener("click", function () {
   document.querySelector("#number1").textContent = "?";
