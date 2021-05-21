@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.number {
+  border: 2px solid black;
+  margin-left: 1rem;
+  padding: 2rem;
+}
