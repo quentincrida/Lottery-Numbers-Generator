@@ -23,13 +23,20 @@ console.log(lotteryNumbers);
 
 //push the first 6 to new array and sort
 
+const luckySix = lotteryNumbers.slice(0, 6);
+console.log(luckySix);
+luckySix.sort(function (a, b) {
+  return a - b;
+});
+console.log(luckySix);
+
 //3. Push the first 6 numbers to display
-document.querySelector("#number1").textContent = lotteryNumbers[0];
-document.querySelector("#number2").textContent = lotteryNumbers[1];
-document.querySelector("#number3").textContent = lotteryNumbers[2];
-document.querySelector("#number4").textContent = lotteryNumbers[3];
-document.querySelector("#number5").textContent = lotteryNumbers[4];
-document.querySelector("#number6").textContent = lotteryNumbers[5];
+document.querySelector("#number1").textContent = luckySix[0];
+document.querySelector("#number2").textContent = luckySix[1];
+document.querySelector("#number3").textContent = luckySix[2];
+document.querySelector("#number4").textContent = luckySix[3];
+document.querySelector("#number5").textContent = luckySix[4];
+document.querySelector("#number6").textContent = luckySix[5];
 
 //reload screen on clicking Play
 document.querySelector(".playButton").addEventListener("click", function () {

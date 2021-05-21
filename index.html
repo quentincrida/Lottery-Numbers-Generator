@@ -5,14 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
     <title>Lottery Number Generator</title>
   </head>
-  <body>
+  <html>
     <h1>Lottery Number Generator</h1>
-    <button class="playButton">Play</button>
-    <button class="refreshButton">Refresh</button>
+    <div class="button">  
+      <button class="playButton">Play</button>
+      <button class="refreshButton" id="refresh">Refresh</button>
+    </div>
+  
+ 
     <p>These are your lucky numbers for the week</p>
-    <div class="your_numbers">
+    <div class="your-numbers">
       <ul>
         <li class="number" id="number1">?</li>
         <li class="number" id="number2">?</li>
