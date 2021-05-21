@@ -30,3 +30,14 @@ document.querySelector("#number3").textContent = lotteryNumbers[2];
 document.querySelector("#number4").textContent = lotteryNumbers[3];
 document.querySelector("#number5").textContent = lotteryNumbers[4];
 document.querySelector("#number6").textContent = lotteryNumbers[5];
+
+document.querySelector(".playButton").addEventListener("click", function () {});
+//refresh button sets numbers to ?
+document.querySelector(".refreshButton").addEventListener("click", function () {
+  document.querySelector("#number1").textContent = "?";
+  document.querySelector("#number2").textContent = "?";
+  document.querySelector("#number3").textContent = "?";
+  document.querySelector("#number4").textContent = "?";
+  document.querySelector("#number5").textContent = "?";
+  document.querySelector("#number6").textContent = "?";
+});
