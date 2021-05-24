@@ -82,8 +82,8 @@ footer {
   color: white;
 }
 #number4 {
-  background-color: green;
-  color: white;
+  /* background: linear-gradient(90deg, green, yellow); */
+  background: linear-gradient(to left, yellow 50%, green 100%);
 }
 #number5 {
   background-color: orange;
